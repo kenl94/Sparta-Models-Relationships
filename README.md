@@ -1,24 +1,19 @@
-# README
+# Sparta-Model-Relationships
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Description
 
-Things you may want to cover:
+Go over everything that we have covered today and build out another Rails project with no Scaffolding, only the models.
 
-* Ruby version
+We should have 3 resources of our choice, where we seed at least 1 of them to generate some information.
 
-* System dependencies
+I used faker to generate the information for the resource
 
-* Configuration
+I will also be covering one to many relationships and I have done so through 1 person having many pets
 
-* Database creation
+I have also added validation to the ruby models.
 
-* Database initialization
+# Challenges
 
-* How to run the test suite
+The biggest challenge I had was making sure the validations worked, as well as making the belong_to and has_many.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I was able to overcome these challenges once I realise I was supposed to use the table name that has been generated in plural rather than singular. 
